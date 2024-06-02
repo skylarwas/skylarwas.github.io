@@ -16,9 +16,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 */
 
-console.log("SKYLAR GOT A LAG SPIKE")
+console.log(" SKYLAR GOT A LAG SPIKE ")
 
-title = "SKYLAR GOT A LAG SPIKE";
+title = " SKYLAR GOT A LAG SPIKE ";
 position = 0;
 function scrolltitle() {
     document.title = title.substring(position, title.length) + title.substring(0, position); 
