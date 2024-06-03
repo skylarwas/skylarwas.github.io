@@ -16,17 +16,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 */
 
-console.log(" SKYLAR GOT A LAG SPIKE ")
 
-title = " text ";
-position = 0;
-function scrolltitle() {
-    document.title = title.substring(position, title.length) + title.substring(0, position); 
-    position++;
-    if (position > title.length) position = 0;
-    titleScroll = window.setTimeout(scrolltitle,270);
-}
-scrolltitle();
 
 
 //Dividing squares
