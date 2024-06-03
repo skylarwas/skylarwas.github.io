@@ -18,7 +18,7 @@
 
 console.log(" SKYLAR GOT A LAG SPIKE ")
 
-title = " SKYLAR GOT A LAG SPIKE ";
+title = " text ";
 position = 0;
 function scrolltitle() {
     document.title = title.substring(position, title.length) + title.substring(0, position); 
